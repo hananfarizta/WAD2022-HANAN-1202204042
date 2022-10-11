@@ -1,4 +1,4 @@
-# WAD2022-HANAN-1202204042
+# WAD2022 HANAN 1202204042
 
 ## This is repository for Web Application Development course Majoring Information System Telkom University 2022
 
