@@ -21,3 +21,4 @@ The repository is structured as follows:
 
 - HTML 5
 - CSS3
+- PHP 8.1.11
