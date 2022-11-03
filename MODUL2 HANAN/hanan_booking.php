@@ -70,7 +70,7 @@
                             </li>
                             <li class="m-1">
                                 <label for="car_type">Car Type</label>
-                                <selects class="form-select" name="car_type" id="car_type">
+                                <select class="form-select" name="car_type" id="car_type">
                                     <option selected>Choose...</option>
                                     <?php foreach ($carlist as $car_list) : ?>
                                         <?php
@@ -81,7 +81,7 @@
                                         ?><option value="<?= $car_list["car"]; ?>"><?= $car_list["car"]; ?></option>
                                         <?php } ?>
                                     <?php endforeach; ?>
-                                </selects>
+                                </select>
                             </li>
                             <li class="m-1">
                                 <label for="phone">Phone Number</label><br>

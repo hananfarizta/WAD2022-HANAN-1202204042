@@ -17,7 +17,7 @@
     <body>
         <?php
             $booking = $_POST["booking"] . " " . $_POST["time"];
-            $starts_book = date("d-m-Y H:i:s", strtotime($booking));
+            $start_book = date("d-m-Y H:i:s", strtotime($booking));
             $end_book= date("d-m-Y H:i:s", (strtotime($booking) + 60 * 60 * 24 * $_POST["day"]));
             $car_type = $_POST["car_type"];
             $phone = $_POST["phone"];
