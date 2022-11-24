@@ -52,7 +52,7 @@
           <p>List Show Room Hanan - 1202204042</p>
           <div class="d-flex gap-5">
             <?php
-            if (mysqli_num_rows($result) < 0) {
+            if (mysqli_num_rows($result) > 0) {
               while ($row = mysqli_fetch_array($result)) {
                 echo "<div class='card cardcontent' style='width: 18rem;'>
               <img src='../asset/images/" . $row["foto_mobil"] . "' class='card-img-top' alt='fotomobil' style='padding: 16px;'>

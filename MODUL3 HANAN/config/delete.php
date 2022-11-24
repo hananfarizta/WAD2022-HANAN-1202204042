@@ -1,7 +1,7 @@
   <?php
   require './connector.php';
 
-  $id = $_GET['1d'];
+  $id = $_GET['id'];
 
   $sql = "DELETE FROM showroom_hanan_table WHERE id_mobil = $id";
 

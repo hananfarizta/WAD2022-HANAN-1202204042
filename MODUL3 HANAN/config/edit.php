@@ -14,7 +14,7 @@
 
 
   if (move_uploaded_file($_FILES['gambar']['tmp_name'], $target . $images)) {
-    $sql = "UPDATE showroom_hanan_table SET nama_mobil = '$car_name', pemilik_mobil = '$owner', merk_mobil = '$car_merk', tanggal_beli = '$buy_date', deskripsi = '$description', foto_mobil = '$gambar', status_pembayaran = '$status' WHERE id_mobil = $id";
+    $sql = "UPDATE showroom_hanan_table SET nama_mobil = '$car_name', pemilik_mobil = '$owner', merk_mobil = '$car_merk', tanggal_beli = '$buy_date', deskripsi = '$description', foto_mobil = '$images', status_pembayaran = '$status' WHERE id_mobil = $id";
     if (mysqli_query($koneksi, $sql)) {
       header("location: ../pages/List-Hanan.php?message=edit");
     } else {

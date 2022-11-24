@@ -1,5 +1,5 @@
   <?php
-  require './connector.php'
+  require './connector.php';
 
   $target = "../asset/images/";
 
