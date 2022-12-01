@@ -1,7 +1,7 @@
     <?php
     require "../config/connector.php";
 
-    if (isset($_POST["d4ftar"])) {
+    if (isset($_POST["daftar"])) {
         $nama = $_POST["nama"];
         $email = strtolower($_POST["email"]);
         $password = mysqli_real_escape_string($koneksiuser, $_POST["password"]);

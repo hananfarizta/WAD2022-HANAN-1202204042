@@ -13,7 +13,7 @@
         }
     }
 
-    if (isset($_POST["log1n"])) {
+    if (isset($_POST["login"])) {
         $email = $_POST['email'];
         $password = $_POST['password'];
         $query = mysqli_query($koneksiuser, "SELECT * FROM user_hanan WHERE email='$email'");

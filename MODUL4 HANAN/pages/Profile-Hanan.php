@@ -1,5 +1,5 @@
     <?php
-    require "../config/connectors.php";
+    require "../config/connector.php";
     session_start();
 
     $pilihan_warna = [
