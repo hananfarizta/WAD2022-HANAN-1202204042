@@ -7,4 +7,4 @@
         setcookie('id', '', time() - 3600);
         setcookie('key', '', time() - 3600);
         exit;
-    ?>
+    ?> 
