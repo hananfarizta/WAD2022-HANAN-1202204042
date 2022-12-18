@@ -6,19 +6,21 @@
 - Class: SI-44-02
 - Student ID: 1202204042
 
-## Repository Structure
+## Running the app
+Fork or clone this repository with this command:
 
-The repository is structured as follows:
+### HTTPS Method
+```bash
+https://github.com/hananfarizta/WAD2022-HANAN-1202204042.git
+```
 
-- `main` is main branch of the repository and contains the latest stable version of the code.
-- `dev` is the development branch of the repository and contains the latest development version of the code.
-- `feature/feature_name` branches are used to develop new features and are merged into `dev` when they are ready.
-- commits formatted as `feat/feature_name` are used to fix bugs in the code and are merged into `dev` when they are ready.
-
-## Installation
+### SSH Method
+```bash
+git@github.com:hananfarizta/WAD2022-HANAN-1202204042.git
+```
 
 ### Prerequisites
-
 - HTML 5
 - CSS3
 - PHP 8.1.11
+- Laravel 9
